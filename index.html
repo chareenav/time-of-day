@@ -103,7 +103,7 @@
 	let myDay = "";
 	let myYear = myDate.getFullYear();
 
-
+	
 	
 
 	if(myHour >= 5 && myHour <12) {
@@ -121,15 +121,10 @@
         myColor = "yellow";
         myPic = "evening.jpg";
     }
-    else if(myHour >=23 && myHour <5){
-        myGreeting = "Good Night!";
+  	else{
+		myGreeting = "Good Night!";
         myColor = "blue";
         myPic = "night.jpg";
-    }else{
-        //alert("NOT Night!");
-        myGreeting ="NOT Night!";
-        myColor = "white";
-        myPic = "";
     }
 
 	switch (today) {
